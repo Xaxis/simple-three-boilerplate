@@ -1,0 +1,29 @@
+{
+  "name": "simple-three-boilerplate",
+  "version": "0.0.0",
+  "description": "A simple boilerplate for rapidly spinning up single page applications based on Three.js.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xaxis/simple-three-boilerplate.git"
+  },
+  "author": "Wil Neeley <william.neeley@gmail.com> (https://github.com/Xaxis)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xaxis/simple-three-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Xaxis/simple-three-boilerplate#readme",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "requirejs": "^2.2.0",
+    "three": "^0.78.0",
+    "tween": "^0.9.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^1.0.0",
+    "matchdep": "^1.0.1"
+  }
+}

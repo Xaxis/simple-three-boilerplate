@@ -17,19 +17,6 @@ module.exports = function(grunt) {
     },
 
     /**
-     * Set project banner
-     */
-    tag: {
-      banner: '/*!\n' +
-      ' * <%= pkg.name %>\n' +
-      ' * <%= pkg.title %>\n' +
-      ' * @author <%= pkg.author %>\n' +
-      ' * @version <%= pkg.version %>\n' +
-      ' * Copyright <%= pkg.copyright %>. <%= pkg.license %> licensed.\n' +
-      ' */\n'
-    },
-
-    /**
      * Linting
      */
     jshint: {
